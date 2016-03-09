@@ -1,0 +1,28 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+body{
+  background-color: rgba(144, 211, 197, 1);
+}
+.submit-button{
+  text-align: center;
+  margin-left: 426px;
+  margin-top: 320px;
+  width: 150px;
+  height: 75px;
+
+}
